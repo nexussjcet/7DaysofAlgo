@@ -1,5 +1,5 @@
 def is_prime(number):
-    # Your function implementation
+    
     if number < 0 or number-int(number) != 0:
         return str(number)+" is not a Whole number"
 
