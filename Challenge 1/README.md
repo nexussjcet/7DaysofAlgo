@@ -51,7 +51,8 @@ print is_prime(7)
 - Add your submission as a markdown file that includes your code and 
   an explanation of your code to `Challenge 1` folder. You can use this
   [submission template](https://github.com/nexussjcet/7DaysofAlgo/blob/main/Challenge%201/Submission%20Template.md)
-  for reference.
+  for reference. **Do no directly edit `Submission Template.md` or delete it. Copy and paste it's content to your markdown
+  file instead.**
 - The file name of your markdown file should be your full name.
 - Once you've added your markdown file to the folder, open a PR against main
   repo. An open pull request is considered a successful submission.
