@@ -1,7 +1,7 @@
 # code
 
 ```python
-def spell_item(num):
+def spell_it(num):
     lis1=[" ", "one", "two", "three","four", "five", "six", "seven","eight", "nine","ten", "eleven", "twelve","thirteen", "fourteen","fifteen","sixteen","seventeen","eighteen","nineteen"]
     lis2=["", "", "twenty", "thirty", "forty","fifty", "sixty", "seventy", "eighty","ninety"]
     if num==0:
@@ -18,7 +18,7 @@ def spell_item(num):
     else:
         return "please a number between 0 and 999"
 num=int(input())
-result=spell_item(num)
+result=spell_it(num)
 print(result)
 ```
 # Explanation
