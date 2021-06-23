@@ -102,9 +102,12 @@ int main()
 
 # Explanation
 The user is allowed to choose whether to convert decimal/binary to hexadecimal format.
+
 *convert_Tobase16()*:converts 
+
                       * decimal -> hexadecimal
                       * binary -> decimal -> hexadecimal
+                      
 Here stack is implemented to push and pop numerals for 'decimal to hexadecimal' conversion
 to actually take place(helps in reversing the remainders obtained during long division method).                    
                       
