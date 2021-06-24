@@ -1,4 +1,4 @@
-// Code
+# Code
 
 ```python
 array=[]
@@ -43,7 +43,7 @@ print()
 
 
 ```
-// Explanation
+# Explanation
 
 1.firstly user has to enter the unsorted array
 2.function mergeSort() is called,array is passed as the parameter 
