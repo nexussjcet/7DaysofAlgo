@@ -11,7 +11,6 @@ print(to_hex(int(input("Enter a binary number: "),2)))
 ```
 ## Code Explantion
 * The function `to_hex()` is declared and it accepts a decimal number(base 10) and binary number(base 2) from the user and returns hexadecimal value(base 16) of that number
-* Here no variables are used to store values hence reducing space complexity
 * The `hex()` function converts the input number(decimal or binary number) to hex value
 * A slicing operation `hex(num)[2:]` is performed on `hex()` function to eliminate initial two indexes values '0x' (it is an indication of base and does not contribute to the value)
 * Finally hexadecimal value(base 16) is returned to the calling function
