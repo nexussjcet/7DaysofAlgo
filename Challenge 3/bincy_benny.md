@@ -1,91 +1,56 @@
 # Code
 ```cpp
+
 #include<iostream>
 #include<math.h>
-#include<process.h>
-const int n=50;
 using namespace std;
-class stack
-{
-    int a[n];
-    int top;
-    public:
-    stack()
-    {
-        top=-1;
-    }
-    void push(int temp)
-    {
-        if(top!=n-1)
-        {
-            top++;
-            a[top]=temp;
-    }   }
-    int pop()
-    {
-        if(top!=-1)
-        {
-            for(int i=top;i>=0;i--)
-            {
-                int temp=a[top];
-                top--;
-            }    
-            return 0;
-    }   }
-    void display()
-    {
-        int i;
-        for(i=top;i>=0;i--)
-        cout<<a[i];
-    }
-};stack obj;
+
 int convert_Tobase16(int num,char choice)
 {
-reiterate:
+    char hex[50];
+    int i=0;
+ reiterate:
 if(choice=='d')
 {
-    int temp=num;
-    while(temp!=0||temp<num)
+     int temp;
+  
+   while(num!=0)
     {
         temp=num%16;
         if(temp<10)
-        obj.push(temp);
-        else
-        {
-            switch(temp)
-            {
-                case 10:obj.push('A');break;
-                case 11:obj.push('B');break;
-                case 12:obj.push('C');break;
-                case 13:obj.push('D');break;
-                case 14:obj.push('E');break;
-                case 15:obj.push('F');break;
-            }
-        }
-    }obj.display();
-     obj.pop();
-}
+        hex[i]=temp+48;        
+        else   
+        hex[i]=temp+55;
+        i++;
+        num=num/16;
+    } 
+}    for (int j = i - 1; j >= 0; j--)
+        cout << hex[j];
+
+
 if(choice=='b')
 {
-    int j,c,decimal=0;
+    int c=0,decimal=0;
     int n=num;
-    while(n!=0)
+    double j=0;
+    int temp1,p=0;
+    
+   
+while(n)
     {
-        n/=10;
-        c++;
-    }
-    for(int i=c;i!=0;i--)
-    {
-        int temp1=num%10;
-        decimal+=temp1*pow(2,j);
-        j++;
+         temp1=n%10;
+         p=pow(2.0,j);
+         temp1*=p;
+         decimal=decimal+temp1;
+         ++j;
+         n/=10;
     }
     choice='d';
+    num=decimal;
     goto reiterate;
 }
-return 0;
+ return 0;
 }
-
 
 int main()
 {
@@ -101,13 +66,20 @@ int main()
 ```
 
 # Explanation
-The user is allowed to choose whether to convert decimal/binary to hexadecimal format.
+**The user is allowed to choose whether to convert decimal/binary to hexadecimal format.**
 
 *convert_Tobase16()*:converts 
 
                       * decimal -> hexadecimal
+                        *this conversion takes place by dividing the user given input
+                        repeatedly by 16 ,storing the remainders in their respective 
+                        ASCII values and finally displaying it in the reverse form.
+                        
                       * binary -> decimal -> hexadecimal
+                        *here binary is first converted into decimal by multiplying 
+                        the digits with 2 raised to some exponent value starting from
+                        0 and thereby incrementing it further.Lastly, it is converted 
+                        into hexadecimal using the same method mentioned above.
                       
-Here stack is implemented to push and pop numerals for 'decimal to hexadecimal' conversion
-to actually take place(helps in reversing the remainders obtained during long division method).                    
+                    
                       
