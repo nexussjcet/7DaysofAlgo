@@ -1,4 +1,4 @@
-###code
+### code
 ```java
 import java.util.ArrayList;
 import java.util.Collections;
@@ -134,8 +134,8 @@ public static void main(String [] args) {
 }
 }
 		 }
-
-###Explanation
+```
+### Explanation
 In this program we can convert a binary and decimal numbers can be converted into hexadecimal.
 If the user wanter to convert a binary then moves to first condition else moves to second.
 to covert decimal  into  hexadecimal first divide the decimal  with 16 and stores the remainder and print them.
