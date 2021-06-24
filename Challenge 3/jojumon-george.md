@@ -1,6 +1,6 @@
 # Code
 ```
-
+Java
 import java.util.*;
 public class Main {
 static String binToHex(int flag,long n)
