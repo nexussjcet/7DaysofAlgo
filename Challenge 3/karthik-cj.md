@@ -151,13 +151,13 @@ public class Converter
 
 ### EXPLANATION:
 
--User enters either (Decimal to HexaDecimal) or (Binary to HexaDecimal) value.
--Then corresponding function is called.
--And the value is inserted to an ArrayList digit by digit using modulus operator.
--ArrayList is then reversed.
--And inside a for loop , checks wheather value is above 9 and if yes corresponding String Hex[] is printed.
--In Binary to Hex conversion , if count % 4 != 0 , corresponding zeros is added.
--And finally inside a for loop , checks wheather value is above 9 and if yes corresponding String Hex[] is printed.
--Then Base is convereted to HexaDecimal.
+User enters either (Decimal to HexaDecimal) or (Binary to HexaDecimal) value.
+Then corresponding function is called.
+And the value is inserted to an ArrayList digit by digit using modulus operator.
+ArrayList is then reversed.
+And inside a for loop , checks wheather value is above 9 and if yes corresponding String Hex[] is printed.
+In Binary to Hex conversion , if count % 4 != 0 , corresponding zeros is added.
+And finally inside a for loop , checks wheather value is above 9 and if yes corresponding String Hex[] is printed.
+Then Base is convereted to HexaDecimal.
 
 THANK YOU
