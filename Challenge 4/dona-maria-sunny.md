@@ -61,8 +61,7 @@ for x in range(0,length):
    * Middle of the array is found. Using that the ```numberArray``` is divided into two sub two arrays.  
    * **mergeSort()** is called for the left array and also for the right array.
    * Merging of sub arrays done after the two sub arrays are sorted.
-
-             
-             
+   * Process continued till all ```elements``` are sorted.
+   * Sorted array is returned and is printed as output.     
              
    
