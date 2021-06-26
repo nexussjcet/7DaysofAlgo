@@ -12,7 +12,8 @@ of June.
 - [Challenge Three](https://github.com/nexussjcet/7DaysofAlgo/tree/main/Challenge%303) is Live!
 - We've closed over a 100 PRs! 🥳
 - [Challenge Four](https://github.com/nexussjcet/7DaysofAlgo/tree/main/Challenge%204) is Live!
-
+- [Challenge Five](https://github.com/nexussjcet/7DaysofAlgo/tree/main/Challenge%205) is Live!
+- [Challenge Six](https://github.com/nexussjcet/7DaysofAlgo/tree/main/Challenge%206) is Live!
 ## I have a doubt. What do I do?
 You three options here:
 - Open an issue detailing your doubt.
