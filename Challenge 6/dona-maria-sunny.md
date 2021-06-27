@@ -43,9 +43,9 @@ except:
 ```
 # Explanation
 1. User enters the ```days```, ```hours``` and ```hoursInOneDay```. ***Try except*** is used to handle error caused if ```days``` is not of type int. 
-2. Now the function **myFunction()** is called. ```days```, ```hours``` and ```hoursInOneDay``` is passed to it.
+2. Now the function **myFunction()** is called. ```days```, ```hours``` and ```hoursInOneDay``` are passed to it.
 3. Inside the function the following happens:
-   * If both ```days``` and ```hours``` is 0, then ***Invalid input! Enter days and hours*** statement is returned.
+   * If both ```days``` and ```hours``` are 0, then ***Invalid input! Enter days and hours*** statement is returned.
    * Else if ```days``` is 0, then hours in a year and NO leap year is returned.
    * Else if ```hours``` is 0, then days in a year and NO leap year is returned.
    * Else, ***hoursInOneDay//hours*** is done. Days in a year and occurence of leap year after how many years is returned in this case. 
