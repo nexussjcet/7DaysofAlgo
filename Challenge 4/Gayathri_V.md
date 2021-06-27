@@ -60,17 +60,22 @@ public class MergeSort {
             Scanner scanner = new Scanner (System.in);
 
             int[] array= new int[40];
+            int size ;
 
-            for (int i = 0; i < array.length; ++i) {
+            System.out.println("Enter the array size");
+            size = scanner.nextInt();
+            System.out.println("Enter the array size");
+            for (int i = 0; i < size; ++i) {
                 array[i] = scanner.nextInt();
             }
 
-            mergeSort(array, array.length);
-            for (int i = 0; i < array.length; ++i) {
+            mergeSort(array, size);
+            for (int i = 0; i < size; ++i) {
                 System.out.print(array[i] + " ");
             }
         }
     }
+
 
 ```
 
