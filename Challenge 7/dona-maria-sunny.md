@@ -20,7 +20,7 @@ def findHCF(number1, number2):
                 break
             smallestNumber=smallestNumber-1
         lcm=(number1*number2)//hcf
-        return("\nOUTPUT:\n HCF of {} and {} is {}.\n LCM of {} and {} is is {}.".format(number1,number2,hcf,number1, number2, lcm))
+        return("\nOUTPUT:\n HCF of {} and {} is {}.\n LCM of {} and {} is {}.".format(number1,number2,hcf,number1, number2, lcm))
 
 
 print("Factors and Multiples.(HCF and LCM of two numbers)")
