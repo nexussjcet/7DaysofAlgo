@@ -2,7 +2,7 @@
 ## What is 7 Days of Algorithm?
 7 Days of Algorithm is a community driven programming contest, the primary aim of
 which is to introduce problem solving through algorithms to the students. 
-The event is scheduled to happen between 21<sup>st</sup> June to 21<sup>th</sup>
+The event is scheduled to happen between 21<sup>st</sup> June to 29<sup>th</sup>
 of June. 
 ## Results
 The results will be published within the week.
